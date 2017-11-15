@@ -7,7 +7,7 @@ A reasonable starting point for a frontend application anno 2017:
 - A folder for static non-embedded images and an index.html that automatically gets scripts and css added.
 - Bulma plus font-awesome.
 
-To see this particular app point your browser to http://financial-advise.christianhvid.dk
+To see this particular app point your browser to http://financial-advice.christianhvid.dk
 
 ## Requirements
 
