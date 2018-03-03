@@ -28,7 +28,7 @@ export class Main extends React.Component {
                                 Your Current Finances
                             </h2>
                             <form>
-                                <div class="field">
+                                <div className="field">
                                     <label className="label">Monthly Income</label>
                                     <div className="control">
                                         <input 
@@ -40,7 +40,7 @@ export class Main extends React.Component {
                                         />
                                     </div>
                                 </div>
-                                <div class="field">
+                                <div className="field">
                                     <label className="label">Monthly Expenses</label>
                                     <div className="control">
                                         <input 
