@@ -78,7 +78,7 @@ export class Main extends React.Component {
 
                             { 
                                 isNaN(youMayLoan) && 
-                                <div className="notification is-danger">HEY! Rubbish won't help you at the bank.</div>
+                                <div className="notification is-danger">HEY! Rubbish won&#39;t help you at the bank.</div>
                             }
                         </div>
                     </div>
