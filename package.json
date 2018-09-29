@@ -2,6 +2,7 @@
   "name": "financial-advice",
   "version": "1.0.0",
   "description": "n/a",
+  "private": true,
   "scripts": {
     "build": "webpack -p",
     "clean": "rimraf dist",
