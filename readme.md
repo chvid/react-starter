@@ -1,6 +1,6 @@
 # Template for a React/Bulma/Webpack Project
 
-A reasonable starting point for a frontend application anno 2018:
+A reasonable starting point for a frontend application anno 2019:
 
 - React without additional fluff.
 - Webpack with relevant loaders including babel for ES6+ and hot reloading.
