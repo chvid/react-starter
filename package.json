@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack -p",
     "clean": "rimraf dist",
-    "develop": "webpack-dev-server -d --hot --watch --content-base dist",
+    "develop": "webpack serve --hot --watch --content-base dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -32,9 +32,9 @@
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.3",
     "url-loader": "^4.0.0",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
