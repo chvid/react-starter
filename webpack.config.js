@@ -15,7 +15,7 @@ const config = {
         rules: [
             { test: /\.(js|jsx)$/, use: 'babel-loader', exclude: /node_modules/ },
             { test: /\.css$/, use: ['style-loader', 'css-loader'] },
-            { test: /\.(scss|sass)$/, use: ['style-loader','css-loader','sass-loader'] },
+            { test: /\.(scss|sass)$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
             { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, use: 'url-loader?limit=10000&mimetype=application/font-woff' },
             { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, use: 'url-loader?limit=10000&mimetype=application/font-woff' },
             { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, use: 'url-loader?limit=10000&mimetype=application/octet-stream' },
@@ -23,7 +23,7 @@ const config = {
             { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, use: 'url-loader?limit=10000&mimetype=image/svg+xml' }
         ]
     },
-    plugins: [new HtmlWebpackPlugin({ template: 'index.html' }), new CopyWebpackPlugin([{ from: 'images', to: 'images' }])],
+    plugins: [new HtmlWebpackPlugin({ template: 'index.html' }), new CopyWebpackPlugin({ patterns: [{ from: 'images', to: 'images' }] })],
     performance: {
         maxEntrypointSize: 2048000,
         maxAssetSize: 2048000
