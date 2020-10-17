@@ -25,6 +25,10 @@ const config = {
         ]
     },
     plugins: [new HtmlWebpackPlugin({ template: 'index.html' }), new CopyWebpackPlugin([{ from: 'images', to: 'images' }])],
+    performance: {
+        maxEntrypointSize: 2048000,
+        maxAssetSize: 2048000
+    },
     devServer: {
         contentBase: dist,
         compress: true,
