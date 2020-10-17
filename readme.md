@@ -3,7 +3,7 @@
 A reasonable starting point for a frontend application anno 2019:
 
 - React without additional fluff.
-- Webpack with relevant loaders including babel for ES6+ and hot reloading.
+- Webpack with relevant loaders including babel for ES6+ and live reloading.
 - A folder for static non-embedded images and an index.html that automatically gets scripts and css added.
 - Bulma plus font-awesome.
 

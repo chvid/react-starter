@@ -6,7 +6,6 @@ const src = Path.resolve(__dirname, './src');
 const dist = Path.resolve(__dirname, './dist');
 
 const config = {
-    devtool: false,
     entry: Path.resolve(src, 'index.js'),
     output: {
         path: dist,
