@@ -1,50 +1,58 @@
 {
-  "name": "financial-advice",
-  "version": "1.0.0",
-  "description": "n/a",
-  "private": true,
-  "scripts": {
-    "build": "webpack --mode=production",
-    "clean": "rimraf dist",
-    "start": "webpack serve --mode=development",
-    "test": "jest",
-    "watch": "jest --watch",
-    "prettier": "prettier --write index.html package.json webpack.config.js src"
-},
-  "keywords": [],
-  "author": "",
-  "license": "UNLICENSED",
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "@babel/preset-react": "^7.14.5",
-    "babel-loader": "^8.2.2",
-    "copy-webpack-plugin": "^9.0.1",
-    "css-loader": "^6.1.0",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.2",
-    "jest": "^27.0.6",
-    "node-sass": "^6.0.1",
-    "rimraf": "^3.0.2",
-    "sass-loader": "^12.1.0",
-    "style-loader": "^3.1.0",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.45.1",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "bulma": "^0.9.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+    "name": "financial-advice",
+    "version": "1.0.0",
+    "description": "n/a",
+    "private": true,
+    "keywords": [],
+    "author": "",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "webpack --mode=production",
+        "clean": "rimraf dist",
+        "start": "webpack serve --mode=development",
+        "test": "jest",
+        "watch": "jest --watch",
+        "prettier": "prettier --write index.html package.json webpack.config.js src"
+    },
+    "prettier": {
+        "printWidth": 200,
+        "tabWidth": 4,
+        "singleQuote": false,
+        "arrowParens": "avoid",
+        "trailingComma": "none"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ]
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/preset-env": "^7.14.7",
+        "@babel/preset-react": "^7.14.5",
+        "babel-loader": "^8.2.2",
+        "copy-webpack-plugin": "^9.0.1",
+        "css-loader": "^6.1.0",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.2",
+        "jest": "^27.0.6",
+        "node-sass": "^6.0.1",
+        "prettier": "^2.3.2",
+        "rimraf": "^3.0.2",
+        "sass-loader": "^12.1.0",
+        "style-loader": "^3.1.0",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.45.1",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "bulma": "^0.9.3",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    }
 }
