@@ -43,3 +43,21 @@ To clean the build run:
 ```
 npm run clean
 ```
+
+To run tests usings jest:
+
+```
+npm run test
+```
+
+To watch tests usings jest:
+
+```
+npm run watch
+```
+
+To reformat using prettier:
+
+```
+npm run prettier
+```
