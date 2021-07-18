@@ -44,6 +44,7 @@ const config = {
         maxAssetSize: 2048000
     },
     devServer: {
+        hot: true,
         contentBase: dist,
         compress: true,
         port: 1234
