@@ -4,9 +4,9 @@
   "description": "n/a",
   "private": true,
   "scripts": {
-    "build": "webpack -p",
+    "build": "webpack --mode=production",
     "clean": "rimraf dist",
-    "develop": "webpack serve",
+    "start": "webpack serve --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
