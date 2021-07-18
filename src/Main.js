@@ -26,25 +26,13 @@ export const Main = () => {
                             <div className="field">
                                 <label className="label">Monthly Income</label>
                                 <div className="control">
-                                    <input
-                                        className="input"
-                                        type="text"
-                                        placeholder="Monthly Income ..."
-                                        value={monthlyIncome}
-                                        onChange={e => setMonthlyIncome(e.target.value)}
-                                    />
+                                    <input className="input" type="text" placeholder="Monthly Income ..." value={monthlyIncome} onChange={e => setMonthlyIncome(e.target.value)} />
                                 </div>
                             </div>
                             <div className="field">
                                 <label className="label">Monthly Expenses</label>
                                 <div className="control">
-                                    <input
-                                        className="input"
-                                        type="text"
-                                        placeholder="Monthly Expenses ..."
-                                        value={monthlyExpenses}
-                                        onChange={e => setMonthlyExpenses(e.target.value)}
-                                    />
+                                    <input className="input" type="text" placeholder="Monthly Expenses ..." value={monthlyExpenses} onChange={e => setMonthlyExpenses(e.target.value)} />
                                 </div>
                             </div>
                         </form>
@@ -77,4 +65,4 @@ export const Main = () => {
             </div>
         </section>
     );
-}
+};
