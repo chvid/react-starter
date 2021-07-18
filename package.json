@@ -7,8 +7,10 @@
     "build": "webpack --mode=production",
     "clean": "rimraf dist",
     "start": "webpack serve --mode=development",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "jest",
+    "watch": "jest --watch",
+    "prettier": "prettier --write index.html package.json webpack.config.js src"
+},
   "keywords": [],
   "author": "",
   "license": "UNLICENSED",
@@ -27,6 +29,7 @@
     "css-loader": "^6.1.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.0.6",
     "node-sass": "^6.0.1",
     "rimraf": "^3.0.2",
     "sass-loader": "^12.1.0",
